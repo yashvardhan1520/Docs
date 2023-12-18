@@ -1,0 +1,98 @@
+/* new_page.css */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    
+    background: url("static/bg-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    background: rgba(36, 87, 130, 0.9); /* Semi-transparent background */
+}
+
+#fileclick {
+    background-color: var(--second-bg-color);
+    border: 2px solid var(--main-color);
+    color: var(--text-color);
+}
+
+#fileclick ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#fileclick ul li {
+    color: white;
+}
+
+#fileclick ul li:hover {
+    background-color: var(--main-color);
+    color: white;
+}
+
+#toolbar {
+    border: 2px solid var(--main-color);
+}
+
+#textarea {
+    width: 80%;
+    height: 80vh;
+    margin-left: 10%;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background */
+    color: white;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.buttondocs {
+    display: flex;
+    width: fit-content;
+    position: relative;
+    margin-left: 35vw;
+}
+
+.btn-itm {
+    margin-left: 1vw;
+}
+
+#colorSelector {
+    position: absolute;
+}
+
+.list {
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+}
+
+.list-item {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.list-item:hover {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+}
+
+#listitm1, #listitm3, #listitm4, #listitm7 {
+    background-color: var(--main-color);
+    color: var(--bg-color);
+}
+
+#listitm2, #listitm5, #listitm6, #listitm8 {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    color: var(--text-color);
+}
+
+#btn btn-secondary dropdown-toggle{
+    font-family: cursive;
+}

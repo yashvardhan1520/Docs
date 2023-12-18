@@ -1,0 +1,118 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f0f0; /* Light gray background color */
+}
+
+.navbar {
+    background: linear-gradient(to right, #4285f4, #0f9d58);
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white; /* Set the navbar toggle icon color */
+}
+
+#new-page {
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    /* text-decoration: none; */
+    background: url("static/bg-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.heading {
+    margin-left: 20%;
+    margin-top: 20px;
+    color: #ffffff; /* Text color */
+}
+
+#newblank {
+    background-color: rgba(255, 255, 255, 0.2); /* White background with transparency */
+    display: inline-block;
+    width: 10vw;
+    margin-left: 21%;
+    margin-top: 1%;
+    height: 23vh;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: border 0.3s, transform 0.3s;
+    
+}
+
+#newblank:hover {
+    border: 2px solid #4955d5; /* Border color on hover */
+    transform: scale(1.02); /* Scale effect on hover */
+}
+
+#newblank img {
+    margin-top: 25%;
+    margin-left: 19%;
+    
+    background: url("static/bg-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+#new-page p {
+    font-size: 1.5rem;
+    margin-left: 21%;
+    margin-top: 0.5%;
+    cursor: pointer;
+    color: #ffffff; /* Text color */
+    
+    
+    
+}
+
+#card {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100vw;
+    /* margin-left: 20%; */
+    /* margin-top: 5vh; */
+    background: url("static/bg-image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.card {
+    margin-left: 3vw;
+    margin-top: 2vh;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(206, 37, 37, 0.742); /* Box shadow for cards */
+    border-radius: 10px;
+    transition: transform 0.3s;
+    
+}
+
+.card:hover {
+    transform: scale(1.02); /* Scale effect on hover */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.dltBtn {
+    margin-left: 2vw;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333; /* Text color */
+    border: 1px solid #4955d5; /* Border color */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dltBtn:hover {
+    background-color: #4955d5; /* Background color on hover */
+    color: #fff;
+}
